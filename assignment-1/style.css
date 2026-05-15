@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    padding: 0.01%;
+    background-color: #fff;
+    display: flex;
+    overflow: hidden;
+}
+#left{
+    width: 60vw;
+    height: 100vh;
+    background-color: #fbc70b;
+    position: relative;
+}
+#left #poke{
+    width: 25%;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+#left #pika{
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    right: -50%;
+    z-index: 1;
+}
+#left-body{
+    width: 65%;
+    margin-top: 14%;
+    margin-left: 50px;
+    font-family: "Roboto", sans-serif;
+}
+#left-body span{
+    font-size: 1.5vw;
+}
+#left-body h3{
+    font-size: 10vw;
+}
+#left-body p{
+    font-size: 1.8vw;
+    line-height: 40px;
+}
+#in-body{
+    margin-top: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#in-left{
+    width: 40%;
+    height: 2px;
+    background-color: #000;
+}
+#in-right{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+#left-footer{
+    width: 40%;
+    margin-left: 3%;
+    opacity: 0.2;
+}
+#left-footer img{
+    width: 70%;
+    overflow: hidden;
+}
+#right{
+    width: 40vw;
+    height: 100vh;
+    background-color: #fbe8b5;
+    position: relative;
+}
+#menu{
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.dark{
+    color: #000;
+    font-size: 1.3vw;
+}
+#right-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    position: absolute;
+    right: 4%;
+    top: 45%;
+    color: #fbc70b;
+    justify-content: center;
+    align-items: center;
+}
+
